@@ -1,4 +1,4 @@
-import 'package:belajar_flutter/my_home_page.dart';
+import 'package:belajar_flutter/explore_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: "Belajar Flutter",
-      home: MyHomePage(),
+      home: ExplorePage(),
     );
   }
 }

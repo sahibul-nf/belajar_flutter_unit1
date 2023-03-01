@@ -19,6 +19,7 @@ class SecondPage extends StatelessWidget {
                 width: 90,
               ),
             ),
+            const SizedBox(height: 20),
             Container(
               color: Colors.blue,
               child: Image.asset(
@@ -27,9 +28,12 @@ class SecondPage extends StatelessWidget {
                 width: 90,
               ),
             ),
+            const SizedBox(height: 30),
             TextButton(
-              onPressed: () {},
-              child: const Text("Kembali ke halaman sebelumnya"),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("Kembali ke halaman home"),
             )
           ],
         ),

@@ -1,4 +1,5 @@
 import 'package:belajar_flutter/explore_page.dart';
+import 'package:belajar_flutter/menu.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "Belajar Flutter",
-      home: ExplorePage(),
+      home: Menu(),
     );
   }
 }
